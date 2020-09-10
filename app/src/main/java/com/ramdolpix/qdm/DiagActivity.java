@@ -37,7 +37,7 @@ public class DiagActivity extends Activity {
         dos.writeBytes("exit\n");
         dos.flush();
         p.waitFor();
-        Toast toastEnable = Toast.makeText(getApplicationContext(), "DiagPort Enabled", Toast.LENGTH_SHORT);
+        Toast toastEnable = Toast.makeText(getApplicationContext(), "DiagPort Disabled", Toast.LENGTH_SHORT);
         toastEnable.show();
         //все тоже самое что и первое,только в обратном порядке
     }
